@@ -33,10 +33,7 @@ function deleteTodo(index){
     }
     showTodos();
 }
-// Example commands for the user to interact
-console.log("Commands:");
-console.log("1. addTodo('Buy groceries') - To add a to-do item");
-console.log("2. deleteTodo(1) - To remove a to-do by its number");
-console.log("3. showTodos() - To display the current list");
-
+addTodo('Go to the gym');
+addTodo('Go to the store');
+deleteTodo(1);
 showTodos();
